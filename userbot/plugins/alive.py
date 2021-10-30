@@ -12,7 +12,7 @@ from userbot.cmdhelp import CmdHelp
 from userbot.Config import Config
 from . import *
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "IASBABU𝔹𝕆𝕋"
 
 ludosudo = Config.SUDO_USERS
 
@@ -23,8 +23,8 @@ else:
 
 mafia = bot.uid
 
-MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/e97d640332ce5eadb3f89.mp4"
-pm_caption = "  __**🔥🔥𝐌𝐀𝐅𝐈𝐀 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
+MAFIA_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/2606d9fd6701e9b1d7e2d.mp4"
+pm_caption = "  __**🔥🔥𝐈𝐀SBABU 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
@@ -34,10 +34,10 @@ pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `Telethon:` `{version.__version__}` \n"
 pm_caption += f"┣•➳➠ `Version:` `{mafiaversion}`\n"
 pm_caption += f"┣•➳➠ `Sudo:` `{sudou}`\n"
-pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/MafiaBot_Support)\n"
-pm_caption += f"┣•➳➠ `Creator:` [Himanshu](https://t.me/H1M4N5HU0P)\n"
+pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/ias_factory)\n"
+pm_caption += f"┣•➳➠ `Creator:` [IASBABU](https://t.me/IASBABU_OFFICIAL)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/MafiaBotOP/MafiaBot) 🔹 [📜License📜](https://github.com/MafiaBotOP/MafiaBot/blob/main/LICENSE)"
+pm_caption += " [🔥GROUP🔥](https://t.me/ias_ips_group) 🔹 [📜JOIN📜](https://t.me/ias_factory)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
