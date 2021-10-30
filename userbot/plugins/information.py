@@ -47,7 +47,7 @@ async def _(event):
     except Exception as e:
         dc_id = "`Need a Profile Picture to check **this**`"
         str(e)
-    caption = """<b>Extracted User info From Telegram<b>
+    caption = """<b>Extracted User info From IASBABU DATABASE<b>
     
 <b>🆔️ User ID</b>: <code>{}</code>
 <b>📎 Link To Profile</b>: <a href='tg://user?id={}'>Click Here🚪</a>
@@ -61,7 +61,7 @@ async def _(event):
 <b>🤖 BOT</b>: {}
 <b>👥 Groups in Common</b>: {}
 
-<b>⚡ <a href='https://t.me/MafiaBot_Support'>From DataBase of MafiaBot</a> ⚡ </b>
+<b>⚡ <a href='https://t.me/ias_ips_group'>From DataBase of IASBABU</a> ⚡ </b>
 """.format(
         user_id,
         user_id,
