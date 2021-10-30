@@ -12,7 +12,7 @@ from userbot.Config import Config
 from . import *
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "BOT User"
 mafia = borg.uid
 
 PICS_STR = []
@@ -26,7 +26,7 @@ async def _(mafiaevent):
         rply = await mafiaevent.get_reply_message()
         logo_ = await rply.download_media()
     else:
-        async for i in bot.iter_messages("@D3VIL_GFX_BG", filter=InputMessagesFilterPhotos):
+        async for i in bot.iter_messages("@IASBABU_OFFICIAL", filter=InputMessagesFilterPhotos):
     	    PICS_STR.append(i)
         pic = random.choice(PICS_STR)
         logo_ = await pic.download_media()
@@ -66,7 +66,7 @@ async def _(mafiaevent):
     await bot.send_file(
         mafiaevent.chat_id,
         file_name,
-        caption=f"**мα∂ε вү  :** 『[{DEFAULTUSER}](tg://user?id={mafia})』\n\n",
+        caption=f"**мα∂ε вү IASBABU :** 『[{DEFAULTUSER}](tg://user?id={mafia})』\n\n",
     )
     await event.delete()
     try:
