@@ -103,7 +103,7 @@ async def kang(args):
         packnick = (
             f"{mafiabot} Vol.{pack}"
             if mafiabot
-            else f"@{user.username}'s MafiaBot Vol.{pack}"
+            else f"@{user.username}'s IASBABU Vol.{pack}"
         )
         cmd = "/newpack"
         file = io.BytesIO()
