@@ -59,9 +59,9 @@ async def set_not_afk(event):
         except Exception as e:  # pylint:disable=C0103,W0703
             await bot.send_message(  # pylint:disable=E0602
                 event.chat_id,
-                "Please set `MAFIABOT_LOGGER` "
+                "Please set `BOT_LOGGER` "
                 + "for the proper functioning of afk functionality "
-                + "Ask in @MafiaBot_Chit_Chat to get help setting this value\n\n `{}`".format(str(e)),
+                + "Ask in @iasbabu_official to get help setting this value\n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True,
             )
