@@ -17,8 +17,8 @@ async def _(event):
       with open("MAFIABOT.jpg", 'wb') as f:
         f.write(response.content)
     
-    captin = f"Fake Image By MafiaBot."
-    fole = "MAFIABOT.jpg"
+    captin = f"Fake Image By IASBABUBot."
+    fole = "IASBABUBOT.jpg"
     await borg.send_file(event.chat_id, fole, caption=captin)
     await event.delete()
-    os.system("rm /root/userbot/MAFIABOT.jpg ")
+    os.system("rm /root/userbot/IASBABUBOT.jpg ")
